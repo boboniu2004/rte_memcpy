@@ -14,7 +14,7 @@ LD := gcc
 
 #编译选项
 CXXFLAGS := -std=c++11 -Wall -m64 -O2 -fPIC -fmessage-length=0 -fvisibility=hidden
-CXXFLAGS_DBG := -std=c++11 -Wall -m64 -O0 -g3 -fPIC -fmessage-length=0 -fvisibility=hidden
+CXXFLAGS_DBG := -std=c++11 -Wall -m64 -O0 -g3 -fPIC -msse4.2 -fmessage-length=0 -fvisibility=hidden
 
 #宏定义
 MACROS := -D_LINUX
